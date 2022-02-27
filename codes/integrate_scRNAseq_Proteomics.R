@@ -46,25 +46,6 @@ interactions
 # create new cell types as dying cells which are assumed to be 10% of the total number of hepatocytes
 # add the proteiomic measurement of the metabolites to the dying cells along with other expressed genes in scRNA-seq
 
-# TO DO
-# # Expression distribution of raw counts of top 50 genes in all cells
-# temp_rawCounts <- rawCounts
-# total.reads <- rowSums(temp_rawCounts)#
-# sorted <- order(total.reads, decreasing = TRUE )#based on total reads
-# temp_rawCounts[sorted[1:10],1:10]
-# boxplot(t(temp_rawCounts[sorted[1:50],]), horizontal = TRUE, las =1,cex.axis=0.6, cex.lab=0.1)
-# title(paste0("Expression distribution of raw counts of top 50 genes in all cells"))
-# quantile(t(temp_rawCounts[sorted[1:50],]))
-# # Expression distribution of raw counts of top 50 genes in Hepatocytes
-# temp_pos <- which(cellLabels[,"cellType"]=="Hepatocytes")
-# # temp_pos <- temp_pos[1:(0.1*length(temp_pos))] #get 10% of the cells
-# temp_rawCounts <- rawCounts[,temp_pos] # temp_rawCounts <- rawCounts
-# total.reads <- rowSums(temp_rawCounts)#
-# sorted <- order(total.reads, decreasing = TRUE )#based on total reads
-# temp_rawCounts[sorted[1:10],1:10]
-# boxplot(t(temp_rawCounts[sorted[1:50],]), horizontal = TRUE, las =1,cex.axis=0.6, cex.lab=0.1)
-# title(paste0("Expression distribution of raw counts of top 50 genes in Hepatocytes"))
-# quantile(t(temp_rawCounts[sorted[1:50],]))
 
 # checking the expression distribution of the receptors of the metabolities in all cells
 temp_pos <- which(toupper(rownames(rawCounts))%in% interactions[,"Symbol"])
@@ -223,8 +204,8 @@ dim(mus2humGenesNormData_metab_req)
 dim(cellLabels_req)
 
 #**********************************getting the expression data for CellphoneDB
-write.table(t(c("Genes", colnames(mus2humGenesNormData_metab_req))),file = "results/data_cellphoneDB_countNorm_musRS0025_mgiJax_metab_4_newMetabATP.txt", quote = FALSE, sep = "\t", append = FALSE, col.names = FALSE, row.names = FALSE)
-write.table(mus2humGenesNormData_metab_req,file = "results/data_cellphoneDB_countNorm_musRS0025_mgiJax_metab_4_newMetabATP.txt", quote = FALSE, sep = "\t", append = TRUE, col.names = FALSE)
+write.table(t(c("Genes", colnames(mus2humGenesNormData_metab_req))),file = "cpdb/data_cellphoneDB_countNorm_musRS0025_mgiJax_metab_4_newMetabATP.txt", quote = FALSE, sep = "\t", append = FALSE, col.names = FALSE, row.names = FALSE)
+write.table(mus2humGenesNormData_metab_req,file = "cpdb/data_cellphoneDB_countNorm_musRS0025_mgiJax_metab_4_newMetabATP.txt", quote = FALSE, sep = "\t", append = TRUE, col.names = FALSE)
 
 
 # #getting the metadata
@@ -255,7 +236,7 @@ head(metaData)
 all(metaData[,"Cell"]==colnames(mus2humGenesNormData_metab_req))
 
 #**********************************getting the metadata for CellphoneDB
-write.table(metaData, file = "results/data_cellphoneDB_metaData_musRS0025_4_newMetabATP.txt", sep = '\t', quote = F, row.names = F, col.names = T)
+write.table(metaData, file = "cpdb/data_cellphoneDB_metaData_musRS0025_4_newMetabATP.txt", sep = '\t', quote = F, row.names = F, col.names = T)
 
 
 
