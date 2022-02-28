@@ -4,3 +4,4 @@ PSLRI (Proteomics scRNA-seq ligand receptor interaction) is a method to integrat
 The latest updates may be found at the original GitHub page: https://github.com/Schwabelab/PSLRI
 
 Large input Seurat object file of the mouse whole-liver is at figshare page: https://figshare.com/articles/dataset/PSLRI_Proteomic_scRNA-seq_ligand-receptor_interaction_/19245966
+DOI: https://doi.org/10.6084/m9.figshare.19245966.v2
