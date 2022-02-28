@@ -1,0 +1,65 @@
+partner_a,partner_b,protein_name_a,protein_name_b,annotation_strategy,source
+adenosine5monophosphate,P30542,adenosine5monophosphate,P30542_HUMAN, ,literature
+cytidine,P30542,cytidine,P30542_HUMAN, ,literature
+cytidine,P29274,cytidine,P29274_HUMAN, ,literature
+glutamate,Q05586,glutamate,Q05586_HUMAN, ,literature
+glutamate,Q12879,glutamate,Q12879_HUMAN, ,literature
+glutamate,Q13224,glutamate,Q13224_HUMAN, ,literature
+glutamate,Q14957,glutamate,Q14957_HUMAN, ,literature
+glutamate,O15399,glutamate,O15399_HUMAN, ,literature
+glutamate,Q8TCU5,glutamate,Q8TCU5_HUMAN, ,literature
+glutamate,O60391,glutamate,O60391_HUMAN, ,literature
+glutamate,Q9UBS5,glutamate,Q9UBS5_HUMAN, ,literature
+glutamate,O75899,glutamate,O75899_HUMAN, ,literature
+glutamate,P42261,glutamate,P42261_HUMAN, ,literature
+glutamate,P42262,glutamate,P42262_HUMAN, ,literature
+glutamate,P42263,glutamate,P42263_HUMAN, ,literature
+glutamate,P48058,glutamate,P48058_HUMAN, ,literature
+glutamate,Q9ULK0,glutamate,Q9ULK0_HUMAN, ,literature
+glutamate,O43424,glutamate,O43424_HUMAN, ,literature
+glutamate,P39086,glutamate,P39086_HUMAN, ,literature
+glutamate,Q13002,glutamate,Q13002_HUMAN, ,literature
+glutamate,Q13003,glutamate,Q13003_HUMAN, ,literature
+glutamate,Q16099,glutamate,Q16099_HUMAN, ,literature
+glutamate,Q13255,glutamate,Q13255_HUMAN, ,literature
+glutamate,Q14416,glutamate,Q14416_HUMAN, ,literature
+glutamate,Q14832,glutamate,Q14832_HUMAN, ,literature
+glutamate,Q14833,glutamate,Q14833_HUMAN, ,literature
+glutamate,P41594,glutamate,P41594_HUMAN, ,literature
+glutamate,O15303,glutamate,O15303_HUMAN, ,literature
+glutamate,Q14831,glutamate,Q14831_HUMAN, ,literature
+glutamate,O00222,glutamate,O00222_HUMAN, ,literature
+inosine,P29274,inosine,P29274_HUMAN, ,literature
+inosine,P0DMS8,inosine,P0DMS8_HUMAN, ,literature
+phenylalanine,P41180,phenylalanine,P41180_HUMAN, ,literature
+succinate,Q9BXA5,succinate,Q9BXA5_HUMAN, ,literature
+taurine,P14867,taurine,P14867_HUMAN, ,literature
+taurine,P47869,taurine,P47869_HUMAN, ,literature
+taurine,P34903,taurine,P34903_HUMAN, ,literature
+taurine,P48169,taurine,P48169_HUMAN, ,literature
+taurine,P31644,taurine,P31644_HUMAN, ,literature
+taurine,Q16445,taurine,Q16445_HUMAN, ,literature
+taurine,P18505,taurine,P18505_HUMAN, ,literature
+taurine,P47870,taurine,P47870_HUMAN, ,literature
+taurine,P28472,taurine,P28472_HUMAN, ,literature
+taurine,P23415,taurine,P23415_HUMAN, ,literature
+taurine,P23416,taurine,P23416_HUMAN, ,literature
+taurine,O75311,taurine,O75311_HUMAN, ,literature
+taurine,P48167,taurine,P48167_HUMAN, ,literature
+tryptophan,Q7Z601,tryptophan,Q7Z601_HUMAN, ,literature
+UDPgalactose,Q15391,UDPgalactose,Q15391_HUMAN, ,literature
+UDPgalactose,Q13304,UDPgalactose,Q13304_HUMAN, ,literature
+UDPglucose,Q15391,UDPglucose,Q15391_HUMAN, ,literature
+UDPglucose,Q13304,UDPglucose,Q13304_HUMAN, ,literature
+UDPNacetylglucosamine,Q15391,UDPNacetylglucosamine,Q15391_HUMAN, ,literature
+uridine,P30542,uridine,P30542_HUMAN, ,literature
+ATP,Q93086,ATP,P2RX5_HUMAN,,literature
+ATP,O15547,ATP,P2RX6_HUMAN,,literature
+ATP,Q99572,ATP,P2RX7_HUMAN,,literature
+ATP,P41231,ATP,P2RY2_HUMAN,,literature
+ATP,Q96G91,ATP,P2Y11_HUMAN,,literature
+ATP,Q9H244,ATP,P2Y12_HUMAN,,literature
+ATP,P51575,ATP,P2RX1_HUMAN,,literature
+ATP,Q9UBL9,ATP,P2RX2_HUMAN,,literature
+ATP,P56373,ATP,P2RX3_HUMAN,,literature
+ATP,Q99571,ATP,P2RX4_HUMAN,,literature
